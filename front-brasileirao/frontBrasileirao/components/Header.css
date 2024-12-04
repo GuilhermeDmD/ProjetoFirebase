@@ -1,0 +1,24 @@
+/* src/components/Menu.css */
+
+/* Estilo geral para o menu */
+.header-lateral {
+  position:fixed;   /* Posiciona o menu no canto da tela */
+  top: 0;            /* Alinha o menu ao topo */
+  left: 0;           /* Alinha o menu à esquerda */
+  width: 275px;      /* Largura fixa para o menu */
+  height: 100%;      /* O menu ocupa toda a altura da tela */
+  background-color: #2c3e50;  /* Cor de fundo do menu */
+  color: white;      /* Cor do texto */
+  text-align: center;
+}
+form{
+  margin: 35px;
+  padding: 30px;
+  width: 135px;
+  display: flex;
+  flex-direction: column;
+  
+}
+#btn_submit{
+  margin: 10px;
+}

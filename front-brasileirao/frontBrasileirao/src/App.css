@@ -1,0 +1,31 @@
+ #root {
+  margin: 0px auto;
+  
+}
+.tabela-times {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.tabela-times th, .tabela-times td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.tabela-times th {
+  border: solid 3px black;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  
+}
+
+.tabela-times tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabela-times tr:hover {
+  background-color: #f1f1f1;
+}
