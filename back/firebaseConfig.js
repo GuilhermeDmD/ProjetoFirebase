@@ -13,7 +13,7 @@ const firebaseConfig = {
 
 // Inicializando o Firebase
   const Conectarbd = initializeApp(firebaseConfig);
-  export const db = getFirestore(Conectarbd); // Obtenha o Firestore
+  export const db = getFirestore(Conectarbd); // Conecta com Firestore
 
 
 
