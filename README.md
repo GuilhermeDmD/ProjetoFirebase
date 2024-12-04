@@ -1,3 +1,7 @@
 ## Manual
-- É necessário utilizar o comando "npm install" em ambas as pastas
-- Após isso para rodar o projeto utilize "npm run dev" em cada um
+Para rodar o projeto é necessário usar o seguintes comando em ambas as pastas: 
+- frontBrasileirao
+- back
+  ```bash
+  npm install
+  npm run dev
